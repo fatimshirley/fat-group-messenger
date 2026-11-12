@@ -1,0 +1,44 @@
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+dist/
+build/
+.npm/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+# Fichiers temporaires et anciens brouillons
+backend/brouillon
+backend/ers
+backend/2a351c377247,
